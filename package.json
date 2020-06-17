@@ -1,0 +1,27 @@
+{
+  "name": "twitchplayspc",
+  "version": "1.0.0",
+  "description": "Simple Electron app that allows easy setup of Twitch Plays PC streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlitchMasta47/TwitchPlaysPC.git"
+  },
+  "author": "GlitchMasta47",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GlitchMasta47/TwitchPlaysPC/issues"
+  },
+  "build": {
+    "appId": "com.glitchmasta47.twitchplayspc"
+  },
+  "homepage": "https://github.com/GlitchMasta47/TwitchPlaysPC#readme",
+  "devDependencies": {
+    "electron": "^9.0.4",
+    "electron-builder": "^22.7.0",
+    "eslint": "^7.2.0"
+  }
+}
